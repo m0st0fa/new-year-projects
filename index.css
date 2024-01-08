@@ -31,11 +31,192 @@ body {
 .offer {
     text-align: center;
 }
-.off{
+
+.off {
     color: #FF0000;
 }
 
 .new-year-img {
     width: 370px;
     height: 300px;
+    margin-bottom: 200px;
 }
+
+.mid-night {
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 250px;
+    margin-left: 30px;
+    height: 400px;
+    width: 1250px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.mid-night h2 {
+    padding: 20px;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.mid-night p {
+    padding: 10px;
+    margin: 20px 0;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.mid-night button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mid-night button:hover {
+    background-color: #0056b3;
+}
+
+/* event date place and time  */
+.event {
+    height: 220px;
+    width: 1320px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+.event h3 {
+    color: #333;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.event h3 span {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+#event-color {
+    color: #ff4500;
+}
+/* best offer section css */
+.best-offer {
+    height: 600px;
+    width: 1350px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-comming-soon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.New-offer {
+    padding: 20px;
+    text-align: left;
+}
+
+.New-offer h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.New-offer h3 {
+    color: #555;
+    font-size: 18px;
+}
+
+.New-offer p {
+    color: #777;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.middle-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+
+.year-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.year-info h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.year-info p {
+    color: #555;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.year-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+/* Holiday sales related style */
+.Holiday{
+    text-align: center;
+    width: 1068px;
+    margin: auto;
+    margin-bottom: 12px;
+}
+.Holiday-image{
+    display: flex;
+}
+.image-1{
+    width: 600px;
+    height: 600px;
+    margin-top: 170px;
+    /* position: absolute; */
+    margin-top: 10px;
+   
+}
+.Holiday-image-2{
+    display: flex;
+    justify-content: end;
+}
+.image-3{
+    margin-left: -8px;
+}
+.Holiday-buttom-image{
+    width: 1300px;
+    height: 200px;
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
