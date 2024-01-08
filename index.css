@@ -7,7 +7,8 @@ body {
     width: 1320px;
     height: 600px;
     margin: 50px;
-    background: black;
+    background-image: url('/resources/Banner\ Image.png');
+    background: orange;
 }
 
 .banner-text {
@@ -17,6 +18,24 @@ body {
     margin-left: 550px;
     font-size: 30px;
     font-weight: 900;
-    background-color: rgba(240, 248, 255, 0.5);
-    color: black;
+    color: white;
+}
+
+/* category section  */
+.category {
+    width: 1320px;
+    height: 200px;
+    margin: 50px;
+}
+
+.offer {
+    text-align: center;
+}
+.off{
+    color: #FF0000;
+}
+
+.new-year-img {
+    width: 370px;
+    height: 300px;
 }
