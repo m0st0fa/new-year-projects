@@ -8,21 +8,25 @@ body {
     height: 600px;
     margin: 50px;
     background-image: url('/resources/Banner\ Image.png');
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
+
 .banner-text {
     text-align: center;
     padding: 120px;
     color: white;
 }
-.banner-text h1{
+
+.banner-text h1 {
     font-size: 80px;
     background-color: black;
     opacity: 50%;
 }
-.banner-text p{
+
+.banner-text p {
     font-size: 45px;
 }
+
 /* category section  */
 .category {
     width: 1320px;
@@ -46,6 +50,7 @@ body {
 
 .mid-night {
     background-image: url('/resources/Vectorrr.png');
+    opacity: 95%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 250px;
@@ -56,6 +61,7 @@ body {
     padding: 50px;
     border-radius: 10px;
 }
+
 
 .mid-night h2 {
     margin-left: 20px;
@@ -82,7 +88,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-.mid-night-image{
+
+.mid-night-image {
     margin-left: 760px;
     position: absolute;
     margin-top: -300px;
@@ -121,6 +128,7 @@ body {
 #event-color {
     color: #ff4500;
 }
+
 /* best offer section css */
 .best-offer {
     height: 600px;
@@ -159,7 +167,7 @@ body {
     font-size: 16px;
 }
 
-.middle-img{
+.middle-img {
     max-width: 100%;
     height: auto;
     border-radius: 463px;
@@ -189,41 +197,201 @@ body {
     border-radius: 463px;
     border: 15px solid #F00;
 }
+
 /* Holiday sales related style */
-.Holiday{
+.Holiday {
     text-align: center;
     width: 1068px;
     margin: auto;
     margin-bottom: 12px;
+    margin-top: 20px;
 }
-.Holiday-image{
+
+.Holiday-image {
     display: flex;
 }
-.image-1{
+
+.image-1 {
     width: 600px;
     height: 600px;
     margin-top: 170px;
     /* position: absolute; */
     margin-top: 10px;
-   
+
 }
-.Holiday-image-2{
+
+.Holiday-image-2 {
     display: flex;
     justify-content: end;
 }
-.image-3{
+
+.image-3 {
     margin-left: -8px;
 }
-.Holiday-buttom-image{
+
+.Holiday-buttom-image {
     width: 1300px;
     height: 200px;
     margin-left: 30px;
 
 }
 
+/* content offer  */
+content {
+    width: 1300px;
+    height: 300px;
+    margin-left: 300px;
+    justify-content: center;
+
+}
+
+.gifts {
+    /* margin-left: 30px; */
+    margin-top: 80px;
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.p {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 5px;
+    /* margin-left: 25px; */
+
+}
+
+.c {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.picturs {
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    justify-content: space-around;
+
+}
+
+.cointain {
+    width: 1300px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.pic {
+    margin-top: 100px;
+}
+
+.s {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.d {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.b {
+    display: flex;
+    margin-left: 300px;
+
+}
+
+
+.i {
+    width: 500px;
+    height: 65px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    border: none;
+
+    border-radius: 30px 0 0 30px;
+
+
+}
+
+.subcribe {
+    width: 180px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+
+    border: none;
+}
+
+.footer-container {
+    background-color: #070211;
+    padding: 15px;
+}
+
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
 
 
 
 
+}
 
+.num {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
 
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.line {
+    margin: 80px;
+}
